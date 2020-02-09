@@ -22,6 +22,8 @@ public interface DailyBasic extends BaseBean {
         String pb = "pb";  // 市净率（总市值/净资产）
         String ps = "ps";  // 市销率
         String ps_ttm = "ps_ttm";  // 市销率（TTM）
+        String dv_ratio = "dv_ratio"; // 股息率 （%）
+        String dv_ttm = "dv_ttm"; // 股息率（TTM）（%）
         String total_share = "total_share";  // 总股本 （万股）
         String float_share = "float_share";  // 流通股本 （万股）
         String free_share = "free_share";  // 自由流通股本 （万）
