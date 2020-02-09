@@ -35,6 +35,8 @@ public class DailyBasicEntity implements DailyBasic {
     @Column(name = "pb") protected Double pb;  // 市净率（总市值/净资产）
     @Column(name = "ps") protected Double ps;  // 市销率
     @Column(name = "ps_ttm") protected Double psTtm;  // 市销率（TTM）
+    @Column(name = "dv_ratio") protected Double dv_ratio;  // 股息率 （%）
+    @Column(name = "dv_ttm") protected Double dv_ttm;  // 股息率（TTM）（%）
     @Column(name = "total_share") protected Double totalShare;  // 总股本 （万股）
     @Column(name = "float_share") protected Double floatShare;  // 流通股本 （万股）
     @Column(name = "free_share") protected Double freeShare;  // 自由流通股本 （万）
